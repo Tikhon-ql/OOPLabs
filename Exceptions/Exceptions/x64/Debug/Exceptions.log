@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\Tikhon\Proga\C++\Exceptions\Exceptions\Source.cpp(164,1): warning C5043: "terminate": спецификация исключения не соответствует предыдущему объявлению
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h(33): message : см. объявление "terminate"
+D:\Tikhon\Proga\C++\Exceptions\Exceptions\Source.cpp(163,6): warning C4273: terminate: несовместимое связывание dll
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h(33,48): message : см. предыдущее определение "terminate"
+  Exceptions.vcxproj -> D:\Tikhon\Proga\C++\Exceptions\x64\Debug\Exceptions.exe

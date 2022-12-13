@@ -1,0 +1,3 @@
+41 dish1 Belarus 1
+18467 dish2 Russia 0
+6334 dish3 Belarus 5

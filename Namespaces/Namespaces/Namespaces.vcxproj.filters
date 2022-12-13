@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Humen">
+      <UniqueIdentifier>{cc27f950-71c3-49f0-8814-133ac8ee683b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Humen">
+      <UniqueIdentifier>{8b7185af-9029-44b6-acf7-d12a776bedb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Vehicles">
+      <UniqueIdentifier>{30bdf906-92dd-4f93-b6ff-f3f0ab57a87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Vehicles">
+      <UniqueIdentifier>{3a3b41f4-6263-415e-bcbe-be36b103bcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Enum">
+      <UniqueIdentifier>{23f6b6da-6ae5-4c2f-982e-93b050f839fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\TrainParts">
+      <UniqueIdentifier>{e8329cf2-8ac3-45b4-8b22-60e7dc552719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\TrainParts">
+      <UniqueIdentifier>{e26d78bc-5518-479a-9dd5-a3d02ac63d1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Исходные файлы\Humen</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainDriver.cpp">
+      <Filter>Исходные файлы\Humen</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Исходные файлы\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="Wagon.cpp">
+      <Filter>Исходные файлы\TrainParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Conductor.cpp">
+      <Filter>Исходные файлы\Humen</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы\TrainParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Locomotive.cpp">
+      <Filter>Исходные файлы\TrainParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>Исходные файлы\Vehicles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h">
+      <Filter>Файлы заголовков\Humen</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainDriver.h">
+      <Filter>Файлы заголовков\Humen</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Файлы заголовков\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="WagonType.h">
+      <Filter>Файлы заголовков\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Wagon.h">
+      <Filter>Файлы заголовков\TrainParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Conductor.h">
+      <Filter>Файлы заголовков\Humen</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков\TrainParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Locomotive.h">
+      <Filter>Файлы заголовков\TrainParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Train.h">
+      <Filter>Файлы заголовков\Vehicles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(173,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(188,42): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(203,42): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(212,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(270,15): warning C4101: end: неиспользованная локальная переменная
+D:\Tikhon\Proga\C++\Labs2\Labs2\Source.cpp(270,8): warning C4101: start: неиспользованная локальная переменная
+  Labs2.vcxproj -> D:\Tikhon\Proga\C++\Labs2\x64\Debug\Labs2.exe

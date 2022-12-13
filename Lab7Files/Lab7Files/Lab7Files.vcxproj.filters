@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\FileWorkers">
+      <UniqueIdentifier>{dfe32116-3b8a-4e75-b2de-46353a343037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Models">
+      <UniqueIdentifier>{4a9af13d-d18b-405b-b86a-3c691dbea3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models">
+      <UniqueIdentifier>{96293c82-416e-4ead-b9de-eec279172200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Support">
+      <UniqueIdentifier>{ef905354-0440-40df-9d20-629602df9bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Support">
+      <UniqueIdentifier>{fb9cbaaa-6c1e-4909-85a9-9929d38a5d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FileWorkers">
+      <UniqueIdentifier>{6216be30-cd38-4c80-9912-05cf710f9452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Enum">
+      <UniqueIdentifier>{4ca675d8-7389-400c-b859-906634f5d76f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Dish.cpp">
+      <Filter>Исходные файлы\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSpliter.cpp">
+      <Filter>Исходные файлы\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryDishFileWorker.cpp">
+      <Filter>Исходные файлы\FileWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="DishCollection.cpp">
+      <Filter>Исходные файлы\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDishFileWorker.cpp">
+      <Filter>Исходные файлы\FileWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBinaryDishFileWorker.cpp">
+      <Filter>Исходные файлы\FileWorkers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dish.h">
+      <Filter>Файлы заголовков\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSpliter.h">
+      <Filter>Файлы заголовков\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWorker.h">
+      <Filter>Файлы заголовков\FileWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="DishFileWorker.h">
+      <Filter>Файлы заголовков\FileWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryDishFileWorker.h">
+      <Filter>Файлы заголовков\FileWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="DishType.h">
+      <Filter>Файлы заголовков\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="DishCollection.h">
+      <Filter>Файлы заголовков\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDishFileWorker.h">
+      <Filter>Файлы заголовков\FileWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBinaryDishFileWorker.h">
+      <Filter>Файлы заголовков\FileWorkers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dishes.dat">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dishes.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="dishes2.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

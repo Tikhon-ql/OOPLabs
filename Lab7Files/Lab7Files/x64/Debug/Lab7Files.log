@@ -1,0 +1,7 @@
+﻿  DishCollection.cpp
+  TextDishFileWorker.cpp
+D:\Tikhon\Proga\AspNetCore\Mess\Lab7Files\Lab7Files\StringSpliter.h(9,2): warning C4091: static : пропускается слева от "StringSpliter", когда ни одна переменная не объявлена
+D:\Tikhon\Proga\AspNetCore\Mess\Lab7Files\Lab7Files\TextDishFileWorker.cpp(22,8): warning C4101: ch: неиспользованная локальная переменная
+  Создание кода...
+D:\Tikhon\Proga\AspNetCore\Mess\Lab7Files\Lab7Files\DishCollection.cpp(74): warning C4715: DishCollection::FindByCountry: значение возвращается не при всех путях выполнения
+  Lab7Files.vcxproj -> D:\Tikhon\Proga\AspNetCore\Mess\Lab7Files\x64\Debug\Lab7Files.exe

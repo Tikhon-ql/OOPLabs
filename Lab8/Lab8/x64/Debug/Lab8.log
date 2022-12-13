@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Tikhon\Proga\AspNetCore\Mess\Lab8\Lab8\Source.cpp(240): warning C4715: BinaryTree<int>::SearchElement: значение возвращается не при всех путях выполнения
+D:\Tikhon\Proga\AspNetCore\Mess\Lab8\Lab8\Source.cpp(424): warning C4715: TreeIterator<int>::operator*: значение возвращается не при всех путях выполнения
+  Lab8.vcxproj -> D:\Tikhon\Proga\AspNetCore\Mess\Lab8\x64\Debug\Lab8.exe
